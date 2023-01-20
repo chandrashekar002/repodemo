@@ -1,0 +1,12 @@
+{
+	"name": "AzureSqlTablesink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabasesink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
